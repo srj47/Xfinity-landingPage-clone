@@ -1,0 +1,252 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.address-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address-label {
+  font-size: 1rem;
+  color: grey;
+}
+
+.address-input {
+  width: 30rem;
+  height: 3.5rem;
+  padding: 10px;
+  outline-color: blue;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.check-availability-btn {
+  height: 50px;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+}
+
+.bg-Hero-Returntobau-container {
+  background-image: url("./assest/image/hero-returntoBAU/Hero-ReturntoBAU-Destkop.jpg");
+  background-position: center;
+  height: 75vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.black-friday-halfimage {
+  width: 300px;
+}
+
+#shop-btn {
+  padding: 10px;
+  width: 80px;
+  border: 2px solid grey;
+  font-weight: 600;
+}
+
+#shop-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.green-Gb-container {
+  background-image: url("./assest/image/GreenGB/GreenGBBcomponent3x.jpg");
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+
+.green-gb-text-container {
+  padding: 1.5rem;
+  color: white;
+}
+
+#build-your-plan-btn {
+  padding: 15px;
+}
+
+.hp-image {
+  width: 14rem;
+  border-radius: 10px;
+}
+
+#hp-shop-btn {
+  width: 100px;
+  font-weight: 600;
+}
+
+.card-container {
+  background-color: #ececf2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 420px;
+}
+
+
+
+#card-title {
+  color: #6138f5;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: black;
+}
+
+#card-btn {
+  min-width: 230px;
+}
+
+
+
+.banner-bg-container {
+  background-image: url("./assest/image/entertainment-banner/Entertainment_Banner_DT.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title {
+  color: #ffffff;
+}
+
+.banner-sub-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.banner-description {
+  color: #ffffff;
+  text-align: center;
+}
+
+.badge-save-purple-image {
+  width: 360px;
+}
+
+.badge-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.badge-sub-title {
+  color: #6138f5;
+}
+
+.badge-description {
+  color: black;
+}
+
+#learn-more-btn {
+  width: 150px;
+  padding: 10px;
+}
+
+/* media queries for small screen */
+
+@media (max-width: 767px) {
+  .address-container {
+    flex-direction: column;
+  }
+
+  .address-input {
+    width: 22rem;
+  }
+
+  .bg-Hero-Returntobau-container {
+    background-image: url("./assest/image/hero-returntoBAU/Hero-ReturntoBAU-Mobile.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .green-Gb-container {
+    background-image: url("./assest/image/GreenGB/GBBImageMobile_Green_Updated_5x.jpg");
+    height: 20vh;
+    margin-bottom: 0px;
+  }
+
+  .green-mobile-bg-container {
+    background-color: #136944;
+  }
+
+  .green-gb-text-container {
+    text-align: center;
+  }
+
+  .hp-image {
+    width: 300px;
+  }
+
+  .banner-container {
+    background-color: #000000;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px;
+  }
+
+  .banner-bg-mobile {
+    background-image: url("./assest/image/entertainment-banner/Flex_Banner-2_Mobile.jpg");
+    height: 20vh;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .badge-text-container {
+    text-align: center;
+  }
+
+  
+}
+
+
+.footer{
+  background-color: rgb(29, 29, 29);
+  color: gray;
+  padding: 50px 20px;
+}
+.footer div{
+  margin-inline: auto;
+}
+.footer h5{
+  margin-block: 10px;
+}
+.footer2{
+  background-color: rgb(12, 12, 12);
+  color: gray;
+  padding: 10px 0;
+}
+.footer p{
+  margin-bottom: 5px;
+}
